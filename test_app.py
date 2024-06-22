@@ -17,4 +17,4 @@ def test_home(client):
     assert response.status_code == 200
     expected_text = 'Hello World'
     print(response.data)
-    assert expected_text.encode() in response.data
+    assert expected_text.encode() == response.data

@@ -8,7 +8,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return 'Hello World'
+        return 'Hi Devops Geeks Welcome to the class'
 
     return app
 if __name__ == '__main__':

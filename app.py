@@ -3,8 +3,8 @@
 from flask import Flask 
 
 def create_app():
-    x= 5
-    y=7
+    # x= 5
+    # y=7
     app = Flask(__name__)
     # a()
     @app.route('/')
